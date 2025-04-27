@@ -1,7 +1,7 @@
 import soundfile as sf
 import os
 
-folder_path = 'C:/Users/Ardi/Desktop/parse files/recordings/data'
+folder_path = r"C:\Users\Luis Mendez\source\repos\test\HackDarmounth\filtering_option1\data"
 
 quant_step = 1  # Aggressive rounding
 tolerance =  1   # Aggressive filtering
