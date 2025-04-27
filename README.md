@@ -29,7 +29,7 @@ Lossy Compression: Applied lossy compression to reduce dataset size for faster p
 python
 Copy
 Edit
-import os
+"import os
 import noisereduce as nr
 from pydub import AudioSegment
 import numpy as np
@@ -82,7 +82,7 @@ def process_audio(input_path, output_path):
 
 for filename in os.listdir(input_folder):
     if filename.endswith(".wav"):
-        process_audio(os.path.join(input_folder, filename), os.path.join(output_folder, filename))
+        process_audio(os.path.join(input_folder, filename), os.path.join(output_folder, filename))"
 </details>
 ⚡ Challenges We Ran Into
 Managing real-time rendering while keeping performance smooth
