@@ -25,7 +25,7 @@ Noise Filtering: Used Python to remove static noise and amplify meaningful signa
 Lossy Compression: Applied lossy compression to reduce dataset size for faster processing and lightweight storage.
 
 <details> <summary><strong>Noise Filtering (Python)</strong></summary>
-python
+```python
 Copy
 Edit
 import os
@@ -82,7 +82,7 @@ def process_audio(input_path, output_path):
 
 for filename in os.listdir(input_folder):
     if filename.endswith(".wav"):
-        process_audio(os.path.join(input_folder, filename), os.path.join(output_folder, filename))
+        process_audio(os.path.join(input_folder, filename), os.path.join(output_folder, filename))```
 </details>
 ⚡ Challenges We Ran Into
 Managing real-time rendering while keeping performance smooth
