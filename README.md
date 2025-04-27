@@ -25,10 +25,10 @@ Noise Filtering: Used Python to remove static noise and amplify meaningful signa
 Lossy Compression: Applied lossy compression to reduce dataset size for faster processing and lightweight storage.
 
 <details> <summary><strong>Noise Filtering (Python)</strong></summary>
-```python
+python
 Copy
 Edit
-import os
+```import os
 import noisereduce as nr
 from pydub import AudioSegment
 import numpy as np
