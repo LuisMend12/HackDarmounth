@@ -55,7 +55,7 @@ for filename in os.listdir(input_folder):
     if filename.endswith(".wav"):
         process_audio(os.path.join(input_folder, filename), os.path.join(output_folder, filename))
 </details> <details> <summary><strong>Lossy Compression (Python)</strong></summary>
-```python
+python
 Copy
 Edit
 from pydub import AudioSegment
@@ -82,8 +82,8 @@ def process_audio(input_path, output_path):
 
 for filename in os.listdir(input_folder):
     if filename.endswith(".wav"):
-        process_audio(os.path.join(input_folder, filename), os.path.join(output_folder, filename))"```
-        </details> <details> <summary><strong>Lossy Compression (Python)</strong></summary>
+        process_audio(os.path.join(input_folder, filename), os.path.join(output_folder, filename))
+</details>
 ⚡ Challenges We Ran Into
 Managing real-time rendering while keeping performance smooth
 
@@ -111,3 +111,4 @@ Integrating machine learning for brain pattern detection
 Adding support for live neural data streaming
 
 Exporting analytical reports and data summaries
+
