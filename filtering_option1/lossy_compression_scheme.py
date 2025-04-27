@@ -4,8 +4,8 @@ import noisereduce as nr
 import numpy as np
 
 # Input and output folder paths
-input_folder = r"C:\Users\Luis Mendez\source\repos\test\HackDarmounth\data"
-output_folder = r"C:\Users\Luis Mendez\source\repos\test\HackDarmounth\2_filtered_data"
+input_folder = r"C:\Users\Luis Mendez\source\repos\test\HackDarmounth\filtering_option1\data"
+output_folder = r"C:\Users\Luis Mendez\source\repos\test\HackDarmounth\filtering_option1\2_filtered_data"
 
 # Ensure output folder exists
 if not os.path.exists(output_folder):
