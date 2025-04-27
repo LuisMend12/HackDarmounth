@@ -1,0 +1,74 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ardi\\Desktop\\HackDartmouth\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E803001A-6A35-4B36-AD6A-FF393C625043}|HackDartmouth.vcxproj|C:\\Users\\Ardi\\Desktop\\HackDartmouth\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E803001A-6A35-4B36-AD6A-FF393C625043}|HackDartmouth.vcxproj|solutionrelative:src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E803001A-6A35-4B36-AD6A-FF393C625043}|HackDartmouth.vcxproj|C:\\Users\\Ardi\\Desktop\\HackDartmouth\\compressed_data_light.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E803001A-6A35-4B36-AD6A-FF393C625043}|HackDartmouth.vcxproj|solutionrelative:compressed_data_light.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E803001A-6A35-4B36-AD6A-FF393C625043}|HackDartmouth.vcxproj|C:\\Users\\Ardi\\Desktop\\HackDartmouth\\compressed_data_heavy.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E803001A-6A35-4B36-AD6A-FF393C625043}|HackDartmouth.vcxproj|solutionrelative:compressed_data_heavy.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "compressed_data_light.txt",
+              "DocumentMoniker": "C:\\Users\\Ardi\\Desktop\\HackDartmouth\\compressed_data_light.txt",
+              "RelativeDocumentMoniker": "compressed_data_light.txt",
+              "ToolTip": "C:\\Users\\Ardi\\Desktop\\HackDartmouth\\compressed_data_light.txt",
+              "RelativeToolTip": "compressed_data_light.txt",
+              "ViewState": "AgIAAFMEAAAAAAAAAAAAAGAEAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-04-27T13:28:49.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "compressed_data_heavy.txt",
+              "DocumentMoniker": "C:\\Users\\Ardi\\Desktop\\HackDartmouth\\compressed_data_heavy.txt",
+              "RelativeDocumentMoniker": "compressed_data_heavy.txt",
+              "ToolTip": "C:\\Users\\Ardi\\Desktop\\HackDartmouth\\compressed_data_heavy.txt",
+              "RelativeToolTip": "compressed_data_heavy.txt",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAF0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-04-27T10:00:02.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\Ardi\\Desktop\\HackDartmouth\\src\\main.cpp",
+              "RelativeDocumentMoniker": "src\\main.cpp",
+              "ToolTip": "C:\\Users\\Ardi\\Desktop\\HackDartmouth\\src\\main.cpp",
+              "RelativeToolTip": "src\\main.cpp",
+              "ViewState": "AgIAAK4AAAAAAAAAAAAAADMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-27T04:21:20.004Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
