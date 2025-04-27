@@ -24,11 +24,10 @@ Noise Filtering: Used Python to remove static noise and amplify meaningful signa
 
 Lossy Compression: Applied lossy compression to reduce dataset size for faster processing and lightweight storage.
 
-<details> <summary><strong>Noise Filtering (Python)</strong></summary>
-python
-Copy
-Edit
-```import os
+<details>
+<summary><strong>Noise Filtering (Python)</strong></summary>
+
+<pre><code>import os
 import noisereduce as nr
 from pydub import AudioSegment
 import numpy as np
@@ -41,9 +40,9 @@ def process_audio(input_path, output_path):
     samples = np.array(audio.get_array_of_samples())
     reduced_noise_samples = nr.reduce_noise(y=samples, sr=audio.frame_rate)
     reduced_noise_audio = AudioSegment(
-        reduced_noise_samples.astype(np.int16).tobytes(), 
-        frame_rate=audio.frame_rate, 
-        sample_width=audio.sample_width, 
+        reduced_noise_samples.astype(np.int16).tobytes(),
+        frame_rate=audio.frame_rate,
+        sample_width=audio.sample_width,
         channels=audio.channels
     )
     amplified_audio = reduced_noise_audio + 20
@@ -53,12 +52,16 @@ def process_audio(input_path, output_path):
 for filename in os.listdir(input_folder):
     if filename.endswith(".wav"):
         process_audio(os.path.join(input_folder, filename), os.path.join(output_folder, filename))
+</code></pre>
+
 </details>
-<details> <summary><strong>Lossy Compression (Python)</strong></summary>
-python
-Copy
-Edit
-from pydub import AudioSegment
+
+---
+
+<details>
+<summary><strong>Lossy Compression (Python)</strong></summary>
+
+<pre><code>from pydub import AudioSegment
 import os
 import noisereduce as nr
 import numpy as np
@@ -82,7 +85,9 @@ def process_audio(input_path, output_path):
 
 for filename in os.listdir(input_folder):
     if filename.endswith(".wav"):
-        process_audio(os.path.join(input_folder, filename), os.path.join(output_folder, filename))```
+        process_audio(os.path.join(input_folder, filename), os.path.join(output_folder, filename))
+</code></pre>
+
 </details>
 ⚡ Challenges We Ran Into
 Managing real-time rendering while keeping performance smooth
